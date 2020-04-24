@@ -1,0 +1,70 @@
+.addOfficerContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.formPolice {
+    display: flex;
+    flex-direction: column;
+    font-family: 'gotham';
+}
+
+.popUp {
+    position: absolute;
+    top: 400px;
+    right: 400px;
+    box-shadow: -1px 1px 5px 3px rgba(238, 255, 0, 1);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+}
+
+.inputSingle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+
+.inputSingle>* {
+    margin: 4px 0;
+    text-align: center;
+}
+
+.inputSingle>input {
+    padding: 10px !important;
+}
+
+input::placeholder {
+    color: black !important;
+    font-size: medium;
+}
+
+.inputSingle input {
+    border: 1px solid rgb(121, 121, 6);
+    padding: 5px;
+}
+
+.inputSingle input:focus {
+    border: 2px solid rgb(231, 231, 17);
+}
+
+#addOfficerData {
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 6px;
+    font-family: 'gotham';
+    cursor: pointer;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.btn_add_margin_bottom {
+    margin-bottom: 40px;
+}
+
+#addOfficerData:hover {
+    color: black;
+    background-color: rgb(231, 231, 17);
+}

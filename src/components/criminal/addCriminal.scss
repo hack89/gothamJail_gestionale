@@ -1,0 +1,78 @@
+ // ============================================== RIFATTE CON STYLED COMPONENTS
+ .inputGeneralCrime {
+     font-family: 'gotham';
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .inputGeneralCrime .left,
+ .inputGeneralCrime .right {
+     margin: 0 30px;
+ }
+ 
+ .formCriminal {
+     display: flex;
+     flex-direction: column;
+     font-family: 'gotham';
+ }
+ 
+ // ============================================= 
+ .inputSingle {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 4px;
+ }
+ 
+ .inputSingle>* {
+     margin: 4px 0;
+ }
+ 
+ input::placeholder {
+     color: black !important;
+     font-size: medium;
+ }
+ 
+ .inputSingle input {
+     border: 1px solid rgb(121, 121, 6);
+     padding: 5px;
+ }
+ 
+ .inputSingle input:focus {
+     border: 2px solid rgb(231, 231, 17);
+ }
+ 
+ #addCriminalData {
+     background-color: rgb(0, 0, 0);
+     margin-top: 10px;
+     padding: 6px;
+     font-family: 'gotham';
+     cursor: pointer;
+     color: white;
+     transition: all .4s ease-in-out;
+     width: 60%;
+     margin: 0 auto;
+ }
+ 
+ .btn_add_margin_bottom {
+     margin-bottom: 40px;
+ }
+ 
+ #addCriminalData:hover {
+     color: black;
+     background-color: rgb(231, 231, 17);
+ }
+ 
+ .radioButton {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .innerButtonBox {
+     width: 200px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }

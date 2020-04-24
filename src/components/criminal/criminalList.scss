@@ -1,0 +1,64 @@
+.criminalList {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+}
+
+table {
+    border: 1px solid yellow;
+    font-family: 'gotham';
+}
+
+table thead {
+    background-color: rgb(231, 231, 17);
+    color: black;
+}
+
+table thead tr th {
+    padding: 6px;
+    width: 12%;
+}
+
+table tbody tr td {
+    padding: 6px;
+    width: 12%;
+    text-align: center;
+    border: 1px solid rgb(231, 231, 17);
+}
+
+table tbody tr td a {
+    color: white;
+}
+
+table tbody tr td .fas.fa-skull {
+    font-size: 26px;
+    color: red;
+}
+
+table tbody tr td .fas.fa-running {
+    font-size: 32px;
+    color: orangered;
+}
+
+table tbody tr td .fas.fa-user-lock {
+    font-size: 26px;
+    color: greenyellow;
+}
+
+.criminal_photo {
+    width: 70px;
+    height: 43px;
+}
+
+.morto {
+    background-color: rgba(255, 0, 0, .3);
+}
+
+.vivo {
+    background-color: rgba(0, 255, 0, .3);
+}
+
+.evaso {
+    background-color: rgba(255, 145, 0, 0.3);
+}

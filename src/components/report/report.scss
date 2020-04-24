@@ -1,0 +1,122 @@
+.searchBox {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+}
+
+label.searchLabel {
+    font-family: 'gotham';
+}
+
+input#searchReport {
+    border-radius: 4px;
+    margin-top: 10px;
+    border: 2px solid rgb(231, 231, 17);
+    width: 50%;
+    padding: 8px;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
+
+input#searchReport::placeholder {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+input#searchReport:focus {
+    border: 2px solid rgb(231, 231, 17);
+    -webkit-box-shadow: -1px 1px 5px 3px rgba(238, 255, 0, 1);
+    -moz-box-shadow: -1px 1px 5px 3px rgba(238, 255, 0, 1);
+    box-shadow: -1px 1px 5px 3px rgba(238, 255, 0, 1);
+    outline: none;
+}
+
+#searchResult {
+    margin-top: 30px;
+    font-family: 'gotham';
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
+    grid-gap: 8px;
+}
+
+.searchBoxInput {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchCriminalList {
+    text-align: center;
+    padding: 8px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(231, 231, 17);
+}
+
+.photo-container {
+    width: 100px;
+    overflow: hidden;
+    height: 100px;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 100%;
+    border: 1px solid rgba(238, 255, 0, 1);
+    height: 100%;
+}
+
+span.days_red {
+    color: red;
+}
+
+.selectedDead {
+    background-color: red;
+    color: red;
+}
+
+.selectedJailbreak {
+    background-color: yellow;
+    color: yellow;
+}
+
+.fas.fa-skull {
+    color: red;
+}
+
+.fas.fa-running {
+    color: orangered;
+}
+
+.fas.fa-user-lock {
+    font-size: 26px;
+    color: greenyellow;
+}
+
+.detailsArrest,
+.detailsCrime,
+.detailsStatus {
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.detailsStatus>i {
+    font-size: 18px !important;
+}

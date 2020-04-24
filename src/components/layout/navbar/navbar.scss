@@ -1,0 +1,58 @@
+nav.navbar {
+    width: 200px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    ul.nav-ul {
+        & a {
+            text-decoration: none;
+            outline: none;
+        }
+        & li {
+            list-style: none;
+            padding: 12px 0;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'gotham';
+        }
+        & h3 {
+            font-family: 'gotham';
+            text-shadow: 1px 2px 4px rgb(255, 230, 0);
+            &:not(:first-child) {
+                margin-top: 11px;
+            }
+        }
+    }
+}
+
+nav.navbar ul.nav-ul li:hover {
+    color: red;
+}
+
+#officerListMenu,
+#addOfficerMenu,
+#criminalsListMenu,
+#addCriminalsMenu,
+#reportMenu,
+#addReportMenu {
+    cursor: pointer;
+}
+
+#icon_guard,
+#icon_criminal,
+#icon_file {
+    width: 30px;
+}
+
+#icon_criminal,
+#icon_file {
+    margin-top: 12px;
+}
+
+.image_logo a {
+    outline: none;
+}
